@@ -5,7 +5,6 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Util {
-    // реализуйте настройку соеденения с БД
     private static final String URL = "jdbc:mysql://localhost:3306/userdb?serverTimezone=Europe/Moscow" +
             "&useSSL=false&allowPublicKeyRetrieval=true";
     private static final String username = "root";
